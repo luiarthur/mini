@@ -1,0 +1,14 @@
+# Site settings
+title: Arthur Lui
+description: "Bayesian Statistics / Computation / Research / Arthur Lui / Blog"
+baseurl: ""
+url: "http://luiarthur.github.io"
+email: luiarthur@gmail.com
+#twitter_username: SBootstrap
+github_username:  luiarthur
+facebook_username:  arthur.lui.90
+
+# Build Settings
+markdown: kramdown
+highligher: pygments
+

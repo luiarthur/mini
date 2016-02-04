@@ -1,0 +1,32 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  {% if page.ogimg %}
+  <meta property="og:image" content="{{ page.ogimg }}">
+  {% endif %}
+
+  <link rel="stylesheet" href="/css/screen.css">
+  <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script> MathJax.Hub.Config({ 
+             tex2jax: { 
+               inlineMath: [['$','$'], ['\\(','\\)']], 
+               processEscapes: true 
+             },
+             TeX: {
+               extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+               Macros: {
+                 norm: ["{\\left\\lVert#1\\right\\rVert}",1],
+                 p: ["{\\left(#1\\right)}",1],
+                 paren: ["{\\left(#1\\right)}",1],
+                 brak: ["{\\left[#1\\right]}",1],
+                 abs: ["{\\left|#1\\right|}",1]
+               }
+             }
+           });
+  </script>
+</head>
