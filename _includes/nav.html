@@ -2,14 +2,14 @@
   <div class="wrapper">
     <nav class="site-nav">
       <div class="trigger">
-        <ul class>
+        <ul>
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
           {% endif %}
         {% endfor %}
         <li><a  href="/index.html"> Home </a></li>
-        <li style="float:left;"><a href="/index.html"> Arthur Lui </a></li>
+        <li style="float:left"><a style="text-transform:none;font-size:20px;" href="/index.html"> Arthur Lui </a></li>
         </ul>
       </div>
     </nav>
