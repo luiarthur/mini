@@ -53,7 +53,7 @@ code {
     padding:0 .2em;
     border:1px solid #dedede;
 }
-img{border:0;max-width:100%;}
+img{border:0;max-width:100%;display:block;margin:auto}
 abbr{border-bottom:none;}
 a{color:#4183c4;text-decoration:none;}
 a:hover{text-decoration:underline;}
@@ -115,3 +115,5 @@ dd{margin-left:2em;margin-bottom:1em;}
   /*background-color: grey;*/ /*dark theme*/
   background-color:#4CAF50;
 }
+img.profile-pic{border-radius:50%;width:150px;margin-top:50px;}
+hr.small{max-width:100px;margin:15px auto;border-width:2px;}
