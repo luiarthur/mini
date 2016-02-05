@@ -11,4 +11,5 @@ facebook_username:  arthur.lui.90
 # Build Settings
 markdown: kramdown
 highligher: pygments
+exclude: ["README.md"]
 
