@@ -1,14 +1,15 @@
+---
+---
+
+$fgcol: #353536;
+$bgcol: white;
+
 nav {width: auto !important;}
 *{margin:0;padding:0;}
 body {
     font:20px Lora,'Times New Roman',serif; /*13.34px*/
     line-height:1.4em;
-    background-color: white;
-    /* dark theme
-    color:white;
-    background-color: #1C1C1F;
-    */
-    color: #353536;
+    background-color: $bgcol; color: $fgcol;
     padding:0;
     margin:0;
 }
@@ -84,24 +85,20 @@ dd{margin-left:2em;margin-bottom:1em;}
 ::selection {
   color:steelblue;
   background: rgba(0,0,0,0);
-  /* dark theme
-  background:grey;
-  */
 }
 .site-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /*background-color: #FA6311;*/ /*dark theme*/
-  background-color: #353536;
+  background-color: $bgcol;
 }
 .site-nav li {
   float: right;
 }
 .site-nav li a {
   display: block;
-  color: white;
+  color: $fgcol;
   text-align: center;
   padding: 0 2.7em 0 .7em;
   text-decoration: none;
@@ -112,7 +109,6 @@ dd{margin-left:2em;margin-bottom:1em;}
   font-size: 12px;
 }
 .site-nav li:hover {
-  /*background-color: grey;*/ /*dark theme*/
   background-color:#4CAF50;
 }
 img.profile-pic{border-radius:50%;width:150px;margin-top:50px;}
