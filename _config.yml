@@ -15,3 +15,12 @@ kramdown:
   syntax_highlighter: rouge
 
 exclude: ["README.md"]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      comments: "cucumber"
+
