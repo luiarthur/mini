@@ -3,6 +3,7 @@
 
 $fgcol: #353536;
 $bgcol: white;
+$altcol: steelblue;
 
 nav {width: auto !important;}
 *{margin:0;padding:0;}
@@ -83,22 +84,22 @@ dd{margin-left:2em;margin-bottom:1em;}
  ********** Arthur Lui's css *********************
  *************************************************/
 ::selection {
-  color:steelblue;
-  background: rgba(0,0,0,0);
+  color:$altcol;
+  background: none;
 }
 .site-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: $bgcol;
+  background-color: $fgcol;
 }
 .site-nav li {
   float: right;
 }
 .site-nav li a {
   display: block;
-  color: $fgcol;
+  color: $bgcol;
   text-align: center;
   padding: 0 2.7em 0 .7em;
   text-decoration: none;
@@ -109,7 +110,10 @@ dd{margin-left:2em;margin-bottom:1em;}
   font-size: 12px;
 }
 .site-nav li:hover {
-  background-color:#4CAF50;
+  background-color:$altcol;
 }
 img.profile-pic{border-radius:50%;width:150px;margin-top:50px;}
 hr.small{max-width:100px;margin:15px auto;border-width:2px;}
+.MathJax * {
+  color:$fgcol !important;
+}
